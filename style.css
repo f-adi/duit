@@ -9,11 +9,12 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  height: 100%;
 }
 
 body {
   color: #f162ad;
-  background-image: linear-gradient(to top left, #fff 0%, #33ddff 100%);
+  background-image: linear-gradient(to top left, #d7f5fb 0%, #33ddff 100%);
   font-size: 30px;
   font-family: "Nunito", sans-serif;
   text-align: center;
@@ -30,6 +31,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  width: 50%;
+  margin-top: 125px;
+  width: 40%;
 }
