@@ -14,7 +14,12 @@ html {
 
 body {
   color: #f162ad;
-  background-image: linear-gradient(to top left, #fafafa 0%, #33ddff 100%);
+  background-image: linear-gradient(
+    to top left,
+    #fafafa 0%,
+    #33ddff 45%,
+    #33ddff 100%
+  );
   font-size: 30px;
   font-family: "Nunito", sans-serif;
   text-align: center;
