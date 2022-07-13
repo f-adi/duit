@@ -14,15 +14,43 @@ html {
 
 body {
   color: #f162ad;
-  background-image: linear-gradient(to top left, #d7f5fb 0%, #33ddff 100%);
+  background-image: linear-gradient(to top left, #fafafa 0%, #33ddff 100%);
   font-size: 30px;
   font-family: "Nunito", sans-serif;
   text-align: center;
+  justify-content: center;
+}
+
+main {
+  display: block;
+  position: absolute;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: auto; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100rem;
+  height: 60rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  /* display: flex; */
 }
 
 .welcome {
   /* position:absolute */
   margin-top: 100px;
+}
+
+.mission {
+  font-size: 25px;
 }
 
 .pic {
@@ -31,6 +59,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 125px;
-  width: 40%;
+  margin-top: 50px;
+  width: 50%;
 }
